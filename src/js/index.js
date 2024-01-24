@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Check if the default projects flag is not set
   const defaultProjectsFlag = localStorage.getItem('defaultProjectsFlag');
 
-  if (projects.length === 0) {
+  if (projects.length === 0 && !defaultProjectsFlag) {
     const defaultProject1 = new Project('Launch Website (Example Project)')
     defaultProject1.addTodo(new Todo('Design Homepage', 'Create wireframes and design concepts for the homepage.', '2024-03-15', '2', true))
     defaultProject1.addTodo(new Todo('Implement Responsive Layout', 'Write CSS and implement a responsive layout for the entire website.', '2024-03-20', '1', false))
