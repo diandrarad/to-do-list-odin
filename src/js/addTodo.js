@@ -5,8 +5,10 @@ import displayTodos from './todoElement'
 
 const expandedTodoTitle = document.getElementById('expanded-todo-title')
 const modalBody = document.getElementById('modal-body')
+const modalContent = document.querySelector('.modal-content')
 
 export default function addTodoToProject() {
+    modalContent.className = 'modal-content'
     expandedTodoTitle.textContent = 'Add a to-do'
     modalBody.innerHTML = `
         <div class="mb-3">
