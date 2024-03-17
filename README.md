@@ -1,5 +1,6 @@
 # Todo List Project
 
+![Todo List Project](screenshot.jpeg)
 This project is part of [The Odin Project](https://www.theodinproject.com/), a comprehensive curriculum for learning web development.
 
 ## Introduction
